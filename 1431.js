@@ -7,7 +7,7 @@ const kidsWithCandies = function(candies, extraCandies) {
     
     let arr = []
   
-    for(let i = 0 ; i<candies.length ; i++){
+    for (let i = 0 ; i<candies.length ; i++){
 
        let a = extraCandies + candies[i]
 
@@ -22,4 +22,5 @@ const kidsWithCandies = function(candies, extraCandies) {
     return arr
 };
 
-kidsWithCandies([2,3,5,1,3],3) //[true,true,true,false,true] 
+console.log(kidsWithCandies([2,3,5,1,3],3));
+ //[true,true,true,false,true] 
