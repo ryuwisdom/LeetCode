@@ -10,20 +10,14 @@
 
 
         
-        const text1 = '<a href="/webtoon/list.nhn?titleId=751013&amp;weekday=fri" onclick="nclk_v2(event,thm*f.tit)" class="title" title="2020 최애캐의 MBTI">2020 최애캐의 MBTI</a>'
+        const text1 = '<a href="/webtoon/list.nhn?titleId=751013&amp;weekday=fri" onclick="nclk_v2(event,thm*f.tit)" class="title" title="2020 최애캐의 MBTI">zz 2020 최애캐의 MBTI</a>'
         const text2 = '<a href="/webtoon/list.nhn?titleId=641253&amp;weekday=fri" onclick="nclk_v2(event,thm*f.tit)" class="title" title="외모지상주의">외모지상주의</a>'
         // const pattren = />"\^\w+\$"<\/a>/g
-        const pattren1 = /\w+\s[가-힣]+\s\w+/g
-        const pattren2 = /[가-힣]+/g
-        const pattren3 = /\w+$/g
-        const result1 = text1.match(pattren1)
-        console.log(result1);
-        const result2 = text2.match(pattren2)
-        console.log(result2);
-        const result3 = text2.match(pattren3)
-        console.log(result3);
+        const pattren1 = /titleId=(\d{6})/g
 
+        let result = pattren1.exec(text1);
 
+        console.log(result[1]);
     </script>
 </body>
 </html>
