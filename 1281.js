@@ -1,16 +1,26 @@
-const subtractProductAndSum = function(n) {
-    let multiple = 0
-    let plus = 0
-    for(let i =0;i<n.length;i++){
-        
-        mluliple *= n[i]
-        plus += n[i]
+// const subtractProductAndSum = function(n) {
+//     let multiple = 1
+//     let plus = 0
+    
+//     const converter = String(n)
+    
+
+//     for(let i =0;i<converter.length;i++){
+
+//         console.log(multiple *= converter[i]);
+//         console.log(plus += Number(converter[i]));
+ 
+//     }
+
+    
+
+//     const result = multiple - plus
+//     return result
 
 
-    }
+// };
+// console.log(subtractProductAndSum(234)); //15
 
-    return mluliple - plus
 
 
-};
-console.log(subtractProductAndSum (234));
+console.log(1 = 1+1);
