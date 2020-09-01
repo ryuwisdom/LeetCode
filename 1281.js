@@ -1,26 +1,27 @@
-// const subtractProductAndSum = function(n) {
-//     let multiple = 1
-//     let plus = 0
+const subtractProductAndSum = function(n) {
+    let multiple = 1
+    let plus = 0
     
-//     const converter = String(n)
+    const converter = String(n)
     
 
-//     for(let i =0;i<converter.length;i++){
+    for(let i =0;i<converter.length;i++){
 
-//         console.log(multiple *= converter[i]);
-//         console.log(plus += Number(converter[i]));
+        multiple *= converter[i]
+        plus += Number(converter[i])
+        // console.log(multiple *= converter[i]);
+        // console.log(plus += Number(converter[i]));
  
-//     }
+    }
 
     
 
-//     const result = multiple - plus
-//     return result
+    const result = multiple - plus
+    return result
 
 
-// };
-// console.log(subtractProductAndSum(234)); //15
+};
+console.log(subtractProductAndSum(234)); //15
 
 
 
-console.log(1 = 1+1);
